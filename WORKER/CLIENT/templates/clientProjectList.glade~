@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.0 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <!-- interface-css-provider-path style.css -->
+  <object class="GtkWindow" id="proListClientWin">
+    <property name="name">fixed1</property>
+    <property name="height_request">0</property>
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="halign">baseline</property>
+    <property name="valign">baseline</property>
+    <property name="border_width">0</property>
+    <property name="destroy_with_parent">True</property>
+    <property name="skip_pager_hint">True</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="margin_left">30</property>
+        <property name="margin_right">30</property>
+        <property name="margin_top">30</property>
+        <property name="margin_bottom">30</property>
+        <child>
+          <object class="GtkGrid" id="projectGrid">
+            <property name="width_request">900</property>
+            <property name="height_request">30</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="row_spacing">5</property>
+            <property name="row_homogeneous">True</property>
+            <property name="column_homogeneous">True</property>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Client Name</property>
+                <attributes>
+                  <attribute name="font-desc" value="Chilanka 15"/>
+                  <attribute name="weight" value="ultrabold"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Worker Name</property>
+                <attributes>
+                  <attribute name="font-desc" value="Chilanka 15"/>
+                  <attribute name="weight" value="ultrabold"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left_attach">2</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Status</property>
+                <attributes>
+                  <attribute name="font-desc" value="Chilanka 15"/>
+                  <attribute name="weight" value="ultrabold"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left_attach">3</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Price per hour</property>
+                <attributes>
+                  <attribute name="font-desc" value="Chilanka 15"/>
+                  <attribute name="weight" value="ultrabold"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left_attach">4</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Spent hours</property>
+                <attributes>
+                  <attribute name="font-desc" value="Chilanka Bold 15"/>
+                  <attribute name="weight" value="ultrabold"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left_attach">5</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Project Name</property>
+                <property name="xalign">0.00000000022351741291</property>
+                <attributes>
+                  <attribute name="font-desc" value="Chilanka Bold 15"/>
+                  <attribute name="weight" value="ultrabold"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Total price</property>
+                <attributes>
+                  <attribute name="font-desc" value="Chilanka Bold 15"/>
+                  <attribute name="weight" value="ultrabold"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left_attach">6</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">30</property>
+            <property name="y">80</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">100</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">My Projects</property>
+            <attributes>
+              <attribute name="font-desc" value="Karumbi Bold Italic 32"/>
+              <attribute name="foreground" value="#8a8ae2e23434"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">867</property>
+            <property name="y">19</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+  </object>
+</interface>

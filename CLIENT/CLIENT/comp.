@@ -1,0 +1,1 @@
+gcc he.c -o he `pkg-config --cflags --libs gtk+-3.0`
